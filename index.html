@@ -4,7 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>InvaHelp Moscow</title>
-    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#f0f9ff',
+                100: '#e0f2fe',
+                500: '#0ea5e9',
+                600: '#0284c7',
+                700: '#0369a1',
+                900: '#0c4a6e',
+              }
+            }
+          }
+        }
+      }
+    </script>
 
   <script type="importmap">
 {
@@ -17,7 +35,7 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/assets/index-CLucmOGO.js"></script>
+  <script type="module" crossorigin src="/test/assets/index-CLucmOGO.js"></script>
 </head>
   <body class="bg-slate-50 text-slate-900 font-sans antialiased overflow-y-scroll">
     <div id="root"></div>
