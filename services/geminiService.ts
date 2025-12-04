@@ -4,7 +4,7 @@ import { AppEvent, HelpService } from '../types';
 // ВСТАВЬТЕ ВАШ API KEY СЮДА (внутри кавычек), если деплоите на свой хостинг.
 // Получить ключ: https://aistudio.google.com/app/apikey
 // Если оставить пустым, поиск работать не будет (или будет брать из env, если настроено).
-const MANUAL_API_KEY = "AIzaSyDmAPQkMU-mAEsmDOLZu1Vm1efPxnAvgTk"; 
+const MANUAL_API_KEY = "AIzaSyDs_ES9rtODggVcyWzrGlogeirNIKEzI4Q"; 
 
 const apiKey = process.env.API_KEY || MANUAL_API_KEY;
 
